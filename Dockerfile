@@ -11,4 +11,5 @@ COPY . .
 RUN chown -R node /usr/src/infogaz-frontend
 USER node
 RUN npm run build
+
 CMD ["npm","start"]
